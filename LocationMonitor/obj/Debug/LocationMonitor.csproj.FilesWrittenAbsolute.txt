@@ -1,0 +1,5 @@
+/Users/vitalyilchenko/projects/meetforit/meetforit_xamarin.git/LocationMonitor/LocationMonitor/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/vitalyilchenko/projects/meetforit/meetforit_xamarin.git/LocationMonitor/LocationMonitor/bin/Debug/LocationMonitor.dll.mdb
+/Users/vitalyilchenko/projects/meetforit/meetforit_xamarin.git/LocationMonitor/LocationMonitor/bin/Debug/LocationMonitor.dll
+/Users/vitalyilchenko/projects/meetforit/meetforit_xamarin.git/LocationMonitor/LocationMonitor/obj/Debug/LocationMonitor.dll
+/Users/vitalyilchenko/projects/meetforit/meetforit_xamarin.git/LocationMonitor/LocationMonitor/obj/Debug/LocationMonitor.dll.mdb

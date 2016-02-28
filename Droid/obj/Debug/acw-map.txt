@@ -1,0 +1,4 @@
+LocationMonitor.Droid.MainActivity, LocationMonitor.Droid;md5ed233e9248d044c31105e4edd6e52d5b.MainActivity
+LocationMonitor.Droid.MainActivity, LocationMonitor.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ed233e9248d044c31105e4edd6e52d5b.MainActivity
+LocationMonitor.Droid.MainActivity;md5ed233e9248d044c31105e4edd6e52d5b.MainActivity
+locationmonitor.droid.MainActivity;md5ed233e9248d044c31105e4edd6e52d5b.MainActivity
