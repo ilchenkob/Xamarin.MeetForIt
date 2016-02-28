@@ -1,5 +1,10 @@
 ﻿using Foundation;
 using UIKit;
+using LocationMonitor.ViewModel;
+using LocationMonitor.iOS.View;
+using GalaSoft.MvvmLight.Ioc;
+using LocationMonitor.Services;
+using LocationMonitor.iOS.Services;
 
 namespace LocationMonitor.iOS
 {
@@ -8,7 +13,7 @@ namespace LocationMonitor.iOS
 	[Register ("AppDelegate")]
 	public class AppDelegate : UIApplicationDelegate
 	{
-		// class-level declarations
+		public static ViewModelLocator ViewModelLocator { get; private set; }
 
 		public override UIWindow Window {
 			get;
@@ -17,13 +22,13 @@ namespace LocationMonitor.iOS
 
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
-			// Override point for customization after application launch.
-			// If not required for your application you can safely delete this method
+			SimpleIoc.Default.Register<ILocationService, LocationService>();
 
-			// Code to start the Xamarin Test Cloud Agent
-			#if ENABLE_TEST_CLOUD
-			Xamarin.Calabash.Start();
-			#endif
+			ViewModelLocator = new ViewModelLocator ();
+
+			Window = new UIWindow (UIScreen.MainScreen.Bounds);
+			Window.RootViewController = new MonitorView();
+			Window.MakeKeyAndVisible ();
 
 			return true;
 		}

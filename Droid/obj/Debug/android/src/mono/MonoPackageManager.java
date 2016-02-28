@@ -80,6 +80,10 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"LocationMonitor.Droid.dll",
+		"Microsoft.Practices.ServiceLocation.dll",
+		"GalaSoft.MvvmLight.dll",
+		"GalaSoft.MvvmLight.Extras.dll",
+		"GalaSoft.MvvmLight.Platform.dll",
 		"LocationMonitor.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Collections.dll",

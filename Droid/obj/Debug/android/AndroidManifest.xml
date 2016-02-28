@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.meetforit.locationmonitor">
-  <uses-sdk android:minSdkVersion="15" />
-  <application android:label="LocationMonitor" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="LocationMonitor.Droid" android:name="md5ed233e9248d044c31105e4edd6e52d5b.MainActivity">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+  <application android:label="LocationMonitor" android:name="com.meetforit.locationmonitor.LocationMonitorApplication" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Location Monitor" android:screenOrientation="portrait" android:name="md57fd739f30ae483e04fe096320c48505b.MonitorView">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
@@ -16,6 +16,7 @@
       </intent-filter>
     </receiver>
   </application>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>
